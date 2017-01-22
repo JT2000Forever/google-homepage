@@ -1,0 +1,115 @@
+#floatRight {
+	float: right;
+}
+
+#floatRight a {
+	padding-right: 8px;
+	position: relative;
+	display: inline-block;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+	text-decoration: none;
+	color: #696969;
+	font-family: Arial;
+}
+
+#floatRight a:hover {
+	text-decoration: underline;
+}
+
+#floatRight img {
+	margin: 10px 20px 0 10px;
+}
+
+#floatRight img:last-child {
+	border-radius: 50%;
+}
+
+#logga {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-top: 170px;
+}
+
+#logga p {
+	color: #4286F7;
+	position: relative;
+	margin: -20px 0 0 225px;
+	font-family: Arial;
+}
+
+input[type=text] {
+	display: block;
+	width: 500px;
+	height: 35px;
+	background-color: white;
+	padding: 0 10px 0 10px;
+	margin: 30px auto;
+	border: 1px solid #D9D9D9;
+	background-image: url('inmatningsverktyg-bild.gif');
+	background-repeat: no-repeat;
+	background-position: 485px 12px;
+}
+
+input[type=text]:hover {
+	border: 1px solid #B0B0B0;
+}
+
+input[type=text]:focus {
+	border: 1px solid #005EFF;
+}
+
+input[type=button] {
+	border-radius: 0px;
+	background-color: #F4F4F4;
+	color: #696969;
+	border: 1px solid #F4F4F4;
+	font-family: Arial;
+	padding: 12px;
+	font-weight: bold;
+}
+
+input[type=button]:hover {
+	color: black;
+	border: 1px solid #CCCCCC;
+    /*box-shadow: 1px 1px #888888;*/
+}
+
+#buttonContainer {
+	text-align: center;
+}
+
+#footer {
+	background-color: #F2F2F2;
+	width: 100%;
+	height: 40px;
+	bottom: 0px;
+	position: absolute;
+	border-top: 1px solid #C7C7C7;
+}
+
+#leftFooter {
+	float: left;
+	padding: 10px 0px;
+}
+
+#rightFooter {
+	float: right;
+	padding: 10px 0px;
+}
+
+#footer a {
+	font-size: 12px;
+	text-decoration: none;
+	padding: 0px 20px;
+	color: #696969;
+	font-family: Arial;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
